@@ -1,0 +1,129 @@
+header {
+  background: #fff url('images/photo1.jpg') no-repeat 50% 80%;
+  background-size: cover;
+  color: #000;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+section {
+    min-height: 100vh;
+}
+
+body {
+  background: #140657;
+   white;
+   margin: 0;
+}
+
+#fable01 {
+background: black;
+padding: 10px;
+background: #ADD8E6 url('images/fond4.jpg') no-repeat top center;
+background-size: cover;
+background-attachment: fixed;
+overflow: hidden;
+padding: 42px;
+}
+
+#fable01 .main-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#fable01 .text-content {
+  background: #140657;
+  padding: 42px;
+  margin: 6px;
+  flex-basis: 420px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+#fable01 .text {
+  padding: 42px;
+  margin: 6px;
+  flex-basis: 420px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+#fable01 figure {
+  flex-basis: 420px;
+  flex-shrink: 3;
+  flex-grow: 1;
+  margin: 6px;
+}
+
+#fable01 figure img {
+  width : 100%;
+}
+
+
+#fable02 {
+  background: black;
+  border: 8px solid #000;
+  padding: 10px;
+}
+
+#fable02 .text-content {
+    background: #365C96 url('images/lievre.jpg')
+    top center no-repeat;
+  padding: 42px;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+  margin-top : 0;
+  margin-right : auto;
+  margin-bottom : 0;
+  margin-left : auto;
+  max-width: 620px;
+}
+
+#fable02 p {
+  background: #140657;
+  padding: 42px;
+  margin: 6px;
+}
+
+#fable02 figure {
+  flex-basis: 420px;
+  flex-shrink: 3;
+  flex-grow: 1;
+  margin: 6px;
+}
+
+
+
+#fable03 {
+  min-height: 60vh;
+  background: #365C96 url('images/fond6.jpg')
+  top center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  padding: 42px;
+}
+
+#fable03 .text-content {
+    background: #140657;
+  padding: 42px;
+  margin: 6px;
+  flex-basis: 420px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+#fable03 .text {
+  padding: 5px;
+  margin: 6px;
+  flex-basis: 200px; center
+  flex-grow: 1;
+  flex-shrink: 1;
+}
